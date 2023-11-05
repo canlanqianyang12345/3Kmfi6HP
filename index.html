@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap|family=Cinzel|Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css"  type="text/css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+      $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+      });
+      </script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+    <title>gyue.me</title>
+  </head>
+
+  <body>
+    <div class="bg"></div>
+    <div class="jumbotron" style="
+    background: url(./assets/img/waves0.png) no-repeat;
+    background-size: contain;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-position: 48% 20px"
+    id="fetch">
+    <header class="container">
+      <div class="row" style="position: relative">
+      <div class="col-md-4 p-5">
+          <a href="/" data-toggle="modal" data-target="#myModal">
+      <img id="home" src="./assets/img/profile.png"
+    class="img-fluid rounded upNdown"
+    alt="Responsive image"></a>
+    </div>
+    <div class="col-6 p-5" style="color: black">
+    <h1 id="title">
+     <h1> <b>Gillian Yue Game Design Portfolio</b></h1>
+    <h4 style="font-family: 'Raleway', sans-serif" 
+    class="text-muted">Design, Development & Art</h4>
+    </div>
+    </div>
+    </header>
+    </div>
+
+
+  <section class="container rounded" 
+  style="font-family: 'Montserrat', sans-serif">
+    <div class="row">
+      <div class="col-11" style="margin: auto">
+    <div class="px-5 pt-3 pb-1 text-center">
+    <p id="block1" style="font-size: 20px;">
+      Hey there! Check out my work, and get in touch below! </p>
+    </div>
+
+  </div>
+  </div>
+   </section>
+
+<section class="container" id="portfolio"> <!-- projects with links -->
+  <div class="row">
+    <div class="col-10" style="margin: auto">  
+
+  <div class="bg-transparent text-black">
+    <div class="row"
+    style="background: url(./assets/img/waves_01.png) no-repeat;
+    background-size: contain;
+    image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background-position: 100% 0px;">
+
+    <div class="col" style ="right: 30px; top: 10px">
+      <div  style ="height: 300px; width: 600px">
+    <img class="card-img" id="aD0" src="./assets/img/cardBG_blue.png" alt="Card image"
+    style ="height: 300px; width: 600px; opacity: 0">
+  </div>
+    <div class="card-img-overlay" id="t0" style ="left: 10px">
+        <a href="./bubbla.html"> 
+      <h5 class="card-title">Bubbla</h5></a>
+      <p class="card-text">iOS SpaceShooter game developed in Unity3d
+      </p>
+
+    </div>
+       </div>
+
+    <div class="col" style ="right: 30px; bottom: 20px">
+    <img src="./assets/img/Bubbla/cover.png"
+    class="img-fluid rounded upNdown_c"
+    alt="Responsive image"
+    onclick="playAnim(0)">
+  </img>
+  </div>
+
+  </div>
+  </div>
+
+  <div class="bg-transparent text-black">
+    <div class="row"
+      style="background: url(./assets/img/waves_02.png) no-repeat;
+      background-size: contain;
+      image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-position: 0% 0px;">
+      <div class="col" style ="left: 50px ">
+        <img src="./assets/img/Chirpy/cover.png"
+        class="img-fluid rounded upNdown_c"
+        alt="Responsive image"
+        onclick="playAnim(1)"
+      >
+         </div>
+        <div class="col" style ="left: 30px; top: 20px">
+          <div  style ="height: 300px; width: 600px">
+    <img class="card-img" id="aD1" src="./assets/img/cardBG_pink.png" alt="Card image"
+    style ="height: 300px; width: 600px; opacity: 0">
+  </div>
+    <div class="card-img-overlay" id="t1" style ="left: 30px">
+        <a href="./chirpy.html">
+      <h5 class="card-title">Chirpy's Adventure</h5></a>
+      <p class="card-text">Simple Platform Game written in Java.</p>
+     </div>
+        </div>
+  </div>
+  </div>
+
+   <div class="bg-transparent text-black">
+     <div class="row"  style="background: url(./assets/img/waves_03.png) no-repeat;
+       background-size: contain;
+       image-rendering: -moz-crisp-edges;
+     image-rendering: -webkit-crisp-edges;
+     image-rendering: pixelated;
+     image-rendering: crisp-edges;
+     background-position: 80% 20px;">
+
+     <div class="col" style ="right: 20px; top: 20px">
+       <div  style ="height: 300px; width: 600px">
+     <img class="card-img" id="aD2" src="./assets/img/cardBG_orange.png" alt="Card image"
+     style ="height: 300px; width: 600px; opacity: 0">
+   </div>
+     <div class="card-img-overlay" id="t2"><a href="./rd345.html">
+       <h5 class="card-title">Rubber Ducky 345</h5>      </a>
+       <p class="card-text">Hackathon game project using Google Quickdraw library</p>
+
+     </div>
+        </div>
+
+     <div class="col">
+     <img src="./assets/img/Rubber_Duck/cover.png"
+     class="img-fluid rounded upNdown_c"
+     alt="Responsive image"
+     onclick="playAnim(2)"
+     style="image-rendering: -moz-crisp-edges;
+   image-rendering: -webkit-crisp-edges;
+   image-rendering: pixelated;
+   image-rendering: crisp-edges;">
+   </img>
+   </div>
+
+   </div>
+   </div>
+
+   <div class="bg-transparent text-black">
+     <div class="row"
+     style="background: url(./assets/img/waves_04.png) no-repeat;
+       background-size: contain;
+       image-rendering: -moz-crisp-edges;
+     image-rendering: -webkit-crisp-edges;
+     image-rendering: pixelated;
+     image-rendering: crisp-edges;
+     background-position: 0% 0px;">
+       <div class="col" style ="left: 30px; bottom: 20px">
+         <img src="./assets/img/Room_Escape/cover.png"
+         class="img-fluid rounded ml-5 upNdown_c"
+         alt="Responsive image"
+         onclick="playAnim(3)"
+         style="image-rendering: -moz-crisp-edges;
+       image-rendering: -webkit-crisp-edges;
+       image-rendering: pixelated;
+       image-rendering: crisp-edges;">
+       </img>
+          </div>
+         <div class="col" style ="left: 30px">
+           <div  style ="height: 300px; width: 600px">
+     <img class="card-img" id="aD3" src="./assets/img/cardBG_cyan.png" alt="Card image"
+     style ="height: 300px; width: 600px; opacity: 0">
+   </div>
+     <div class="card-img-overlay" id="t3">  <a href="./tower_escape.html">
+       <h5 class="card-title">VR Tower Escape</h5></a>
+       <p class="card-text">VR tower escape game on Oculus Quest</p>
+
+      </div>
+         </div>
+   </div>
+   </div>
+
+   <div class="bg-transparent text-black">
+     <div class="row"
+     style="background: url(./assets/img/waves_05.png) no-repeat;
+       background-size: contain;
+       image-rendering: -moz-crisp-edges;
+     image-rendering: -webkit-crisp-edges;
+     image-rendering: pixelated;
+     image-rendering: crisp-edges;
+     background-position: 83% 0px;">
+
+     <div class="col" style ="bottom: 20px">
+       <div  style ="height: 300px; width: 600px">
+     <img class="card-img" id="aD4" src="./assets/img/cardBG_purple.png" alt="Card image"
+     style ="height: 300px; width: 600px; opacity: 0">
+   </div>
+     <div class="card-img-overlay" id="t4"><a href="./hood_to_go.html">
+       <h5 class="card-title">AR Hood_to_go</h5></a>
+       <p class="card-text">AR app assisting the Hood museum sculpture display</p>
+
+     </div>
+        </div>
+
+     <div class="col" style ="bottom: 20px">
+     <img src="./assets/img/Hood_To_Go/cover.png"
+     class="img-fluid rounded m-5 upNdown_c"
+     alt="Responsive image"
+     onclick="playAnim(4)"
+     style="image-rendering: -moz-crisp-edges;
+   image-rendering: -webkit-crisp-edges;
+   image-rendering: pixelated;
+   image-rendering: crisp-edges;">
+   </img>
+   </div>
+
+   </div>
+   </div>
+
+   <div class="bg-transparent text-black">
+      <div class="row"
+        style="background: url(./assets/img/waves_02.png) no-repeat;
+        background-size: contain;
+        image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      background-position: 0% 0px;">
+        <div class="col">
+          <img src="./assets/img/3d_Modeling/cover.png"
+          class="img-fluid rounded ml-5 upNdown_c"
+          alt="Responsive image"
+          onclick="playAnim(5)"
+        >
+           </div>
+          <div class="col" style ="left: 40px; top: 20px ">
+            <div  style ="height: 300px; width: 600px">
+      <img class="card-img" id="aD5" src="./assets/img/cardBG_yellow.png" alt="Card image"
+      style ="height: 300px; width: 600px; opacity: 0">
+    </div>
+      <div class="card-img-overlay" id="t5">              <a href="./3d_modeling.html">
+        <h5 class="card-title">3D Modeling</h5></a>
+        <p class="card-text">my 3D modeling work done in Maya</p>
+
+       </div>
+          </div>
+    </div>
+    </div>
+
+   <div class="bg-transparent text-black">
+      <div class="row"
+      style="background: url(./assets/img/waves_01.png) no-repeat;
+      background-size: contain;
+      image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-position: 100% 0px;">
+  
+      <div class="col" style ="right: 30px; top: 10px ">
+        <div  style ="height: 300px; width: 600px">
+      <img class="card-img" id="aD6" src="./assets/img/cardBG_violet.png" alt="Card image"
+      style ="height: 300px; width: 600px; opacity: 0;">
+    </div>
+      <div class="card-img-overlay" id="t6" style ="left: 10px ">        
+        <a href="./music.html">
+        <h5 class="card-title">Music Composition</h5></a>
+        <p class="card-text">Tunes created in Garageband and Logic Pro
+        </p>
+
+      </div>
+         </div>
+  
+      <div class="col" style ="bottom: 10px">
+      <img src="./assets/img/Music/cover.png"
+      class="img-fluid rounded upNdown_c"
+      alt="Responsive image"
+      onclick="playAnim(6)">
+    </img>
+    </div>
+  
+    </div>
+    </div>
+
+ </div>
+ </div>
+      </section>
+      <div style="height: 60px;"></div>
+
+      <div class="container text-center" id="block2">   
+          <h2>About Me</h2> <br>
+        <div class="row">
+
+<div class="col-sm-6">
+<img src="./assets/img/profile.JPG" class="img-responsive" style="width:80%" alt="Image">
+</div>
+<div class="col-sm-6" style="padding: 25px; padding-right: 60px; font-size: 25px;">
+<p>I am a current undergraduate student studying Computer Science and Digital Art at Dartmouth College. 
+</p>
+<p>Ever since I was a little kid, I've been dreaming to make games! The idea of combining
+  tech, art and story really appeals to me, and I think it's super 
+  exciting to be able to create work that can be fun, meaningful and thought-provoking 
+  all at the same time.
+</p>
+<p>Feel free to contact me through one of the ways listed below!</p>
+</div>
+</div>
+</div>
+
+<section id="footer" class="footer navbar-fixed-bottom">
+<div class="container">
+<div class="row">
+  <div class="col-md-12 py-3" >
+          <div class="mb-5 center" style="
+          text-align: center">
+          <p id="copyright">Gillian Yue © 2020</p>
+          <div class="row center" id="center" style="width: 600px; margin: auto;"> 
+<div >
+          <p id="contactInfo">gillianyue1999@hotmail.com</p>
+          <p id="contactInfo">(508)654-7642</p>
+        </div>
+          <ul class="list-unstyled list-inline social text-center" style="width: auto">
+          <li class="list-inline-item"><a>
+            <i class="far fa-moon" id="moon" onclick="moon()"></i></li></a>
+<li class="list-inline-item">
+<a href="https://www.linkedin.com/in/gillian-yue/" target="_blank">
+  <i class="fab fa-linkedin"></i></a></li>
+  <li class="list-inline-item">
+  <a href="https://github.com/GillianYue" target="_blank">
+<i class="fab fa-github"></i></a></li>
+<li class="list-inline-item">
+    <a href="https://www.youtube.com/channel/UCxLWq57kctYtRhiZXUQvmuQ/videos?view_as=subscriber"
+    target="_blank">
+    <i class="fab fa-youtube"></i></a></li>
+<li class="list-inline-item"><a>
+<i class="fas fa-poop" id="pp" onclick="pp()"></i></a></li>
+</ul></div>
+
+          </div>
+        </div>
+</div>
+</div>
+</section>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h4 class="modal-title">Gillian</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>EeeEEee!</p>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>
+  
+    </div>
+  </div>
+
+<!-- -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./sub.css"  type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <script src="https://videopress.com/videopress-iframe.js"></script>
+    <title>gyue.me</title>
+  </head>
+
+  <body>
+    <div class="bg"></div>
+    <div class="jumbotron" style="
+    background: url(./assets/img/waves0.png) no-repeat;
+    background-size: contain;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-position: 48% 20px"
+    id="fetch">
+    <header class="container">
+      <div class="row" style="position: relative">
+      <div class="col-md-4 p-5">
+        <a href="./index.html">
+      <img id="home" src="./assets/img/profile.png"
+    class="img-fluid rounded upNdown"
+    alt="Responsive image"></a>
+    </div>
+    <div class="col-6 p-5" style="color: black">
+    <h1 style="font-family: 'Gloria Hallelujah', cursive;
+    font-size: 200%">
+     <h1> <b>Gillian Yue</b>:
+    <i>Game Design Portfolio</i></h1>
+    <h4>Design, Development & Art</h4>
+    </div>
+    </div>
+    </header>
+    </div>
+
+
+<section class="container bg-transparent"
+style="font-family: 'Comfortaa', cursive"> 
+  <div class="row">
+    <div class="col-10" style="margin: auto">
+  <div class="bg-light px-5 pt-3 pb-1">
+    <dt class=""
+    style="font-family: 'Gloria Hallelujah', cursive;
+    font-size: 130%">VR Tower Escape</dt>
+  <p>
+  This is a VR room escape game made in Unity and built on Oculus Quest. I was working in a team of four, 
+  with two artists and another coder. 
+</p>
+
+<div id="center" class="bg-light px-5 pt-1 pb-5">
+    <div class="col-10" style="padding: 0px" >
+<img id="im" src="./assets/img/Room_Escape/cover.png">
+<img id="im" style="margin-bottom: 30px" src="./assets/img/Room_Escape/room.png">
+
+<p>Since it's VR and a room escape game, we needed the players to be able to interact with objects in the 
+  scene. For that, we implemented the OVR controllers for grabbing and hand motion, etc. Additionally, 
+  we implemented Haptics (a tiny touch of vibration on the physical controllers when player's picking up objects)
+  in the game. 
+</p>
+
+<div style="margin: 30px">
+    <iframe width="100%" height= "380px"
+      src="https://www.youtube.com/embed/MkEpG5Qwd9I">
+    </iframe>
+    </div>
+
+<p>We created several puzzles, including a chest puzzle, a candle puzzle, and finding and arranging books in a certain
+  order to put on a bookshelf. During design process, we debated about whether to make the puzzles 
+  "linear" (i.e. you can only do the second puzzle after unlocking the first one) or having them all
+  scatter around the room at the same time. Eventually, we decided that linear would be better because
+  players would have a sense of progressing through the game, and we could add in a guide (the little ghost spirit)
+  to provide hints and clues.
+</p>
+
+
+
+</div>
+
+  </div>
+
+  </div>
+</div>
+</div>
+ </section>
+
+
+ <section id="footer" class="footer navbar-fixed-bottom">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-12 py-3" >
+            <div class="mb-5 center" style="
+            text-align: center">
+            <p id="copyright">Gillian Yue © 2020</p>
+            <div class="row center" id="center" style="width: 600px; margin: auto;"> 
+  <div >
+            <p id="contactInfo">gillianyue1999@hotmail.com</p>
+            <p id="contactInfo">(508)654-7642</p>
+          </div>
+            <ul class="list-unstyled list-inline social text-center" style="width: auto">
+            <li class="list-inline-item"><a>
+              <i class="far fa-moon" id="moon" onclick="moon()"></i></li></a>
+  <li class="list-inline-item">
+  <a href="https://www.linkedin.com/in/gillian-yue/" target="_blank">
+    <i class="fab fa-linkedin"></i></a></li>
+    <li class="list-inline-item">
+    <a href="https://github.com/GillianYue" target="_blank">
+  <i class="fab fa-github"></i></a></li>
+  <li class="list-inline-item">
+      <a href="https://www.youtube.com/channel/UCxLWq57kctYtRhiZXUQvmuQ/videos?view_as=subscriber"
+      target="_blank">
+      <i class="fab fa-youtube"></i></a></li>
+  <li class="list-inline-item"><a>
+  <i class="fas fa-poop" id="pp" onclick="pp()"></i></a></li>
+  </ul></div>
+  
+            </div>
+          </div>
+  </div>
+  </div>
+  </section>
+
+<!-- -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+          <script src="script.js"></script>
+  </body>
+</html>

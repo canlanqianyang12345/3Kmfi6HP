@@ -1,0 +1,140 @@
+#im{
+    width: 100%;
+    margin-top: 20px;
+}
+
+video{
+  margin-bottom: 20px;
+}
+
+dt{
+  margin-bottom: 20px;
+}
+
+a, a h5{
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+  a:hover{
+    color: black;
+    text-decoration: none; /* no underline */
+  }
+
+  #title{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  #cyan{
+    background-color: cyan;
+  }
+
+  body{
+background-image: url(./assets/img/bg.png);
+  }
+
+  #block1{
+    background-color: white;
+    border-radius: 10px;
+    height: 80px;
+    padding: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  #block2{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px; 
+    padding: 30px; 
+    padding-bottom: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    /* height: 80px; */
+  } 
+
+#footer{
+background-color: rgba(78,134,158,1);
+margin-top: 50px;
+height: 180px;
+position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+html,body{
+    height: 100%
+}
+
+#myModal{
+  top:200px;
+}
+
+#home{
+  height: 150px; width: 150px; float: right;
+  position:absolute; top: 70px; left: 190px; z-index:50;
+  cursor: pointer;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    cursor: pointer; font-size: 30px;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+
+img{
+image-rendering: -moz-crisp-edges;
+image-rendering: -webkit-crisp-edges;
+image-rendering: pixelated;
+image-rendering: crisp-edges;
+}
+
+audio{
+  padding-bottom: 10px;
+}
+
+.jumbotron {
+  background-color: rgba(165,234,255,0.3);
+}
+
+.fa-fish:hover{
+  font-size: 25px;
+}
+
+#copyright{
+  color: white;
+  width: auto;
+  font-size: 20px;
+}
+
+#contactInfo{
+  text-decoration: underline;
+  width: auto;
+}
+
+#center{
+    display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+
